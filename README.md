@@ -1,4 +1,13 @@
 # Symfony Layered Architecture
 
+Resources:
+
+---
+[Layered Architecture](https://www.thinktocode.com/2018/07/05/layered-architecture/) by Think To Code
+
+---
+
 branch: [feature-skeleton](https://github.com/habibun/symfony-layered-skeleton/tree/feature-skeleton) - Symfony Layered Architecture Skeleton   
-Inspired by: [Layered Architecture – Skeleton Example](https://www.thinktocode.com/2018/07/12/layered-architecture-skeleton-example/)
+Source: [Layered Architecture Skeleton Example](https://www.thinktocode.com/2018/07/12/layered-architecture-skeleton-example/) by Think To Code
+---
+
