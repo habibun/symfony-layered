@@ -11,3 +11,6 @@ branch: [feature-skeleton](https://github.com/habibun/symfony-layered-skeleton/t
 Source: [Layered Architecture Skeleton Example](https://www.thinktocode.com/2018/07/12/layered-architecture-skeleton-example/) by Think To Code
 ---
 
+[Layered Architecture](https://herbertograca.com/2017/08/03/layered-architecture/) by Herberto Graça
+
+
