@@ -2,7 +2,7 @@
 # Files in the packages/ subdirectory configure your dependencies.
 
 # Put parameters here that don't need to change on each machine where the app is deployed
-# https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
+# https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
 
 services:
@@ -17,23 +17,9 @@ services:
         resource: '../src/'
         exclude:
             - '../src/DependencyInjection/'
-            - '../src/Domain/Entity/'
+            - '../src/Entity/'
             - '../src/Kernel.php'
             - '../src/Tests/'
-
-    # controllers are imported separately to make sure services can be injected
-    # as action arguments even if you don't extend any base controller class
-    App\Presentation\Web\Pub\Controller\:
-        resource: '../src/Presentation/Web/Pub/Controller/'
-        tags: ['controller.service_arguments']
-
-    App\Presentation\Web\Backoffice\Controller\:
-        resource: '../src/Presentation/Web/Backoffice/Controller/'
-        tags: ['controller.service_arguments']
-
-    App\Presentation\Api\Rest\Controller\:
-        resource: '../src/Presentation/Api/Rest/Controller/'
-        tags: ['controller.service_arguments']
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
