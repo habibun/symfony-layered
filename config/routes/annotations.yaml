@@ -1,0 +1,17 @@
+web_pub:
+    resource: ../../src/UserInterface/Web/Pub/Controller/
+    type: annotation
+
+web_backoffice:
+    resource: ../../src/UserInterface/Web/Backoffice/Controller/
+    type: annotation
+    prefix: /admin
+
+api_rest:
+    resource: ../../src/UserInterface/Api/Rest/Controller/
+    type: annotation
+    prefix: /api
+
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation

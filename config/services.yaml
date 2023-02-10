@@ -23,8 +23,16 @@ services:
 
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
-    App\UserInterface\Controller\:
-        resource: '../src/UserInterface/Controller/'
+    App\UserInterface\Web\Pub\Controller\:
+        resource: '../src/UserInterface/Web/Pub/Controller/'
+        tags: ['controller.service_arguments']
+
+    App\UserInterface\Web\Backoffice\Controller\:
+        resource: '../src/UserInterface/Web/Backoffice/Controller/'
+        tags: ['controller.service_arguments']
+
+    App\UserInterface\Api\Rest\Controller\:
+        resource: '../src/UserInterface/Api/Rest/Controller/'
         tags: ['controller.service_arguments']
 
     # add more service definitions when explicit configuration is needed
