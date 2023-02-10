@@ -1,14 +1,21 @@
-# ddd-skeleton
-Domain-Driven Design skeleton with Symfony
-
-| Repository Branch | Symfony Version | PHP Version     |
-|-------------------|-----------------|-----------------|
-| [master][1]       | `5.1.x`         | `7.2` or higher |
+## Layered Architecture skeleton with Symfony
 
 
-Read [Domain-Driven Design Docs](https://en.wikipedia.org/wiki/Domain-driven_design)
+| Repository Branch | Symfony Version | PHP Version |
+|-------------------|-----------------|-------------|
+| [main][repo-url]  | `5.4`           | `^7.2`      |
 
-[1]: https://github.com/habibun/ddd-skeleton/tree/master
+
+
+### Learn More
+- [Layered Architecture](https://www.thinktocode.com/2018/07/05/layered-architecture/) by Think To Code
+- [Layered Architecture](https://herbertograca.com/2017/08/03/layered-architecture/) by Herberto Graça
+- [Layered Architecture Skeleton Example](https://www.thinktocode.com/2018/07/12/layered-architecture-skeleton-example/) by Think To Code
+
 
 ## License
-The code is licensed under the [MIT License](https://github.com/habibun/ddd-skeleton/blob/master/LICENSE)
+The code is licensed under the [MIT License](https://github.com/habibun/symfony-layered/blob/main/LICENSE)
+
+
+[//]: # (Links)
+[repo-url]: https://github.com/habibun/symfony-layered/tree/main
